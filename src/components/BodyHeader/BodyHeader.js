@@ -20,6 +20,7 @@ const BodyHeader = () => {
           bg="bg-white"
           border="border-[#F3474B]"
           color="text-[#F3474B]"
+          className="hidden"
         >
           Delete
         </Button>
@@ -28,6 +29,7 @@ const BodyHeader = () => {
           bg="bg-white"
           border="border-[#4A515C]"
           color="text-[#4A515C]"
+          className="hidden"
         >
           clone
         </Button>
@@ -36,6 +38,7 @@ const BodyHeader = () => {
           bg="bg-[#118142]"
           border="border-transparent"
           color="text-white"
+          className="hidden"
         >
           Save
         </Button>

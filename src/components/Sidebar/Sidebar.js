@@ -13,7 +13,7 @@ const Sidebar = () => {
       <SidebarHeader />
       <div className="flex flex-col items-center gap-3 pt-3">
         <SidebarItem Icon={DisplaySettingsIcon} />
-        <SidebarItem Icon={CardGiftcardIcon} />
+        <SidebarItem Icon={CardGiftcardIcon} active />
         <SidebarItem Icon={PeopleIcon} />
         <SidebarItem Icon={SettingsOutlinedIcon} />
         <SidebarItem Icon={HelpOutlineOutlinedIcon} />
