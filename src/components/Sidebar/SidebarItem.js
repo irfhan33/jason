@@ -3,7 +3,7 @@ import { IconButton } from "@mui/material";
 const SidebarItem = ({ Icon }) => {
   return (
     <IconButton>
-      <Icon className=" text-gray-400 " fontSize="large" />
+      <Icon className=" text-gray-400" fontSize="large" />
     </IconButton>
   );
 };
